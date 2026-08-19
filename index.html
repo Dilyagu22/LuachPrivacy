@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luach — Privacy Policy</title>
+<style>
+  /* The app's own Parchment palette, so the page and the product look related.
+     Self-contained on purpose: no fonts, scripts or images are fetched, which
+     is the same promise the page is making about the app. */
+  :root {
+    --bg: #F6F2EA;
+    --card: #FFFDF8;
+    --ink: #1D2430;
+    --ink2: #4C5566;
+    --ink3: #838D9E;
+    --gold: #B8873A;
+    --line: #E4DCCC;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #10141C;
+      --card: #171C26;
+      --ink: #ECEFF5;
+      --ink2: #AEB6C4;
+      --ink3: #7E879A;
+      --gold: #D2A055;
+      --line: #262D3A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--ink2);
+    font: 17px/1.65 ui-serif, Georgia, "Times New Roman", serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 41rem; margin: 0 auto; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 1.5rem; margin-bottom: 2rem; }
+  h1 { color: var(--ink); font-size: 2rem; margin: 0 0 .4rem; letter-spacing: -.01em; }
+  .sub { color: var(--ink3); font-size: .95rem; }
+  h2 {
+    color: var(--ink); font-size: 1.15rem; margin: 2.4rem 0 .7rem;
+    letter-spacing: .02em;
+  }
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+  li { margin-bottom: .45rem; }
+  strong { color: var(--ink); font-weight: 600; }
+  a { color: var(--gold); }
+  .lede {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 1.2rem 1.35rem;
+    margin-bottom: .5rem;
+  }
+  .lede p:last-child { margin-bottom: 0; }
+  footer {
+    margin-top: 3rem; padding-top: 1.4rem;
+    border-top: 1px solid var(--line);
+    color: var(--ink3); font-size: .9rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacy Policy</h1>
+    <div class="sub">Luach · last updated 19 August 2026</div>
+  </header>
+
+  <div class="lede">
+    <p><strong>Luach does not collect your data.</strong> There is no account, no
+    analytics, no advertising and no tracking, and the app sends nothing about
+    you anywhere. Everything you enter stays on your device.</p>
+  </div>
+
+  <h2>What the app stores, and where</h2>
+  <p>Luach keeps the following on your device only:</p>
+  <ul>
+    <li>The city you choose, and your rite, language, theme and text-size settings.</li>
+    <li>Personal dates you add — birthdays, yahrzeits and other anniversaries — together with any names you attach to them.</li>
+    <li>People you save under “Loved ones”, including any Hebrew names you enter.</li>
+    <li>Which psalms you have marked as read, your favourites, and the collections you create.</li>
+    <li>Your blessing favourites and recent searches.</li>
+    <li>Your kashrut timer, if one is running.</li>
+  </ul>
+  <p>This is stored in the app’s own storage on your device, and in a shared
+  container that lets the app’s widgets show the same information. It is
+  included in your device backups if you have those turned on, because it is
+  part of the app. It is not sent to us or to anyone else, because the app has
+  no server.</p>
+
+  <h2>Location</h2>
+  <p>If you tap “Use my current location”, the app asks iOS for your coordinates
+  and uses them for two things: computing candle-lighting, havdalah and zmanim
+  times for where you are, and pointing the compass toward Jerusalem.</p>
+  <p><strong>The coordinate never leaves your device.</strong> It is not
+  transmitted, not stored on any server, and not shared with anyone. The
+  calculation runs on the phone. You can decline the permission and choose a
+  city from the list instead; the app works exactly the same way.</p>
+
+  <h2>The internet</h2>
+  <p>Luach works entirely offline. The calendar engine, the prayer texts, the
+  psalms and the blessing tables are all bundled inside the app. The app makes
+  no network requests, so there is nothing for it to send and no third party to
+  receive it.</p>
+
+  <h2>Children</h2>
+  <p>The app collects nothing from anyone, including children.</p>
+
+  <h2>Analytics, advertising and tracking</h2>
+  <p>There are none. No analytics framework, no advertising identifier, no
+  third-party SDKs, and no tracking of any kind — across apps, websites or
+  otherwise.</p>
+
+  <h2>Deleting your data</h2>
+  <p>Deleting the app removes everything it has stored. There is nothing held
+  elsewhere to request or erase, because nothing is held elsewhere.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy ever changes, the date at the top changes with it.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy, or about the app:
+  <a href="mailto:daniel.ilyaguyev@gmail.com">daniel.ilyaguyev@gmail.com</a></p>
+
+  <footer>
+    Luach — a Jewish calendar, zmanim and blessings reference.
+    This page is served as a static file and sets no cookies.
+  </footer>
+</main>
+</body>
+</html>
