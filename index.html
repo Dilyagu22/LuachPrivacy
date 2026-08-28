@@ -45,6 +45,10 @@
     color: var(--ink); font-size: 1.15rem; margin: 2.4rem 0 .7rem;
     letter-spacing: .02em;
   }
+  h3 {
+    color: var(--ink2); font-size: 1rem; font-weight: 600;
+    margin: 1.6rem 0 .5rem;
+  }
   p { margin: 0 0 1rem; }
   ul { margin: 0 0 1rem; padding-left: 1.2rem; }
   li { margin-bottom: .45rem; }
@@ -69,57 +73,95 @@
 <main>
   <header>
     <h1>Privacy Policy</h1>
-    <div class="sub">Luach · last updated 19 August 2026</div>
+    <div class="sub">Luach · last updated 27 August 2026</div>
   </header>
 
   <div class="lede">
     <p><strong>Luach does not collect your data.</strong> There is no account, no
-    analytics, no advertising and no tracking, and the app sends nothing about
-    you anywhere. Everything you enter stays on your device.</p>
+    analytics, no advertising and no tracking. The app makes no network requests
+    at all, so there is nothing for it to send and nobody to send it to.
+    Everything you enter stays on your device.</p>
   </div>
 
-  <h2>What the app stores, and where</h2>
-  <p>Luach keeps the following on your device only:</p>
+  <h2>What the app stores on your device</h2>
+  <p>This list is complete. Every one of these is kept on your device and
+  nowhere else.</p>
+
+  <h3>Settings you choose</h3>
   <ul>
-    <li>The city you choose, and your rite, language, theme and text-size settings.</li>
-    <li>Personal dates you add — birthdays, yahrzeits and other anniversaries — together with any names you attach to them.</li>
-    <li>People you save under “Loved ones”, including any Hebrew names you enter.</li>
-    <li>Which psalms you have marked as read, your favourites, and the collections you create.</li>
-    <li>Your blessing favourites and recent searches.</li>
-    <li>Your kashrut timer, if one is running.</li>
+    <li>The city you have chosen, and whether you chose it or the app is still
+    on its default.</li>
+    <li>Whether you follow the Israel or Diaspora rite.</li>
+    <li>Your language, color theme, text size and printing style.</li>
+    <li>Which reminders you have turned on, and how far ahead candle-lighting
+    reminders should fire.</li>
+    <li>Your reading preferences — whether the Hebrew, the transliteration and
+    the translation are shown, the reading size, the page background, and
+    whether the screen stays awake while you read.</li>
   </ul>
-  <p>This is stored in the app’s own storage on your device, and in a shared
-  container that lets the app’s widgets show the same information. It is
-  included in your device backups if you have those turned on, because it is
-  part of the app. It is not sent to us or to anyone else, because the app has
-  no server.</p>
+
+  <h3>Things you enter</h3>
+  <ul>
+    <li><strong>Personal dates</strong> — birthdays, yahrzeits, a wedding, a
+    baby’s Hebrew naming and the rest — with the names you attach to them.</li>
+    <li><strong>People you save under “Loved ones”</strong>: the name you type,
+    the Hebrew name if you enter one, whether the person is living or is being
+    remembered, and whether you have linked them to a date in the calendar.</li>
+    <li><strong>Your own notes on the blessings screen.</strong> These are free
+    text — whatever you write is stored exactly as you wrote it.</li>
+    <li>Your blessing favorites and your recent blessing searches.</li>
+  </ul>
+
+  <h3>Where you have got to</h3>
+  <ul>
+    <li>Which psalms you have marked as read, your psalm favorites, the
+    collections you have made, and which reading cycle you follow.</li>
+    <li><strong>Where you stopped reading</strong> — the psalm and verse. If you
+    opened that reading for someone in particular, this also records who and
+    why, so the app can offer to carry on. That means it can hold <strong>a
+    person’s name together with the reason you were reading for them</strong>,
+    such as recovery from illness.</li>
+    <li>A kashrut wait, if one is running, and which custom you follow.</li>
+  </ul>
+
+  <h3>For the widgets</h3>
+  <ul>
+    <li>A copy of today’s times and your theme, so the home-screen and
+    lock-screen widgets can draw without opening the app.</li>
+  </ul>
+
+  <p>All of this lives in the app’s own storage on your device, and in a
+  container the app shares with its widgets. It is included in your device
+  backups if you have those switched on, because it is part of the app. It is
+  never sent to us or to anyone else — the app has no server to send it to.</p>
 
   <h2>Location</h2>
-  <p>If you tap “Use my current location”, the app asks iOS for your coordinates
-  and uses them for two things: computing candle-lighting, havdalah and zmanim
-  times for where you are, and pointing the compass toward Jerusalem.</p>
-  <p><strong>The coordinate never leaves your device.</strong> It is not
-  transmitted, not stored on any server, and not shared with anyone. The
-  calculation runs on the phone. You can decline the permission and choose a
-  city from the list instead; the app works exactly the same way.</p>
+  <p>If you tap “Use my current location,” the app asks iOS for your coordinates
+  and uses them for two things: working out candle-lighting, havdalah and zmanim
+  for where you are, and pointing the compass toward Jerusalem. The coordinates
+  are saved on your device as the city you are using, so the app still knows
+  where you are the next time you open it.</p>
+  <p><strong>They never leave your device.</strong> They are not transmitted,
+  not stored on any server and not shared with anyone; the calculation runs on
+  the phone. You can decline the permission and pick a city from the list
+  instead, and the app works exactly the same way.</p>
 
   <h2>The internet</h2>
   <p>Luach works entirely offline. The calendar engine, the prayer texts, the
-  psalms and the blessing tables are all bundled inside the app. The app makes
-  no network requests, so there is nothing for it to send and no third party to
-  receive it.</p>
-
-  <h2>Children</h2>
-  <p>The app collects nothing from anyone, including children.</p>
+  psalms and the blessing tables are all bundled inside the app. It makes no
+  network requests of any kind.</p>
 
   <h2>Analytics, advertising and tracking</h2>
   <p>There are none. No analytics framework, no advertising identifier, no
   third-party SDKs, and no tracking of any kind — across apps, websites or
   otherwise.</p>
 
+  <h2>Children</h2>
+  <p>The app collects nothing from anyone, including children.</p>
+
   <h2>Deleting your data</h2>
-  <p>Deleting the app removes everything it has stored. There is nothing held
-  elsewhere to request or erase, because nothing is held elsewhere.</p>
+  <p>Deleting the app removes everything above. There is nothing held elsewhere
+  to request or erase, because nothing is held elsewhere.</p>
 
   <h2>Changes</h2>
   <p>If this policy ever changes, the date at the top changes with it.</p>
